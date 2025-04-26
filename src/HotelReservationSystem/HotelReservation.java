@@ -10,6 +10,7 @@ public class HotelReservation {
 
     public static void main (String[] args) throws ClassNotFoundException , SQLException {
         try{
+            System.out.println("project start");
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("Drivers loaded successfully!!!!");
         }catch (ClassNotFoundException e){
